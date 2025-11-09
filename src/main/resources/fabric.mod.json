@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "elementaldimensions",
+	"version": "${version}",
+	"name": "Elemental Dimensions",
+	"description": "A mod that adds dimensions for each of the four major elements",
+	"authors": [
+		"Infernodude777"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/Infernodude777/elemental-dimensions"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/elementaldimensions/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.infernodude777.elementaldimensions.ElementalDimensions"
+		],
+		"fabric-datagen": [
+			"net.infernodude777.elementaldimensions.ElementalDimensionsDataGenerator"
+		],
+        "client": [
+        "net.infernodude777.elementaldimensions.ElementalDimensionsClient"
+      ]
+	},
+	"mixins": [
+		"elementaldimensions.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.3",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
