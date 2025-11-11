@@ -1,0 +1,14 @@
+{
+  "item.elementaldimensions.fire_essence": "Fire Essence",
+  "item.elementaldimensions.water_essence": "Water Essence",
+  "item.elementaldimensions.air_essence": "Air Essence",
+  "item.elementaldimensions.earth_essence": "Earth Essence",
+  "item.elementaldimensions.earth_ingot": "Earth Ingot",
+  "item.elementaldimensions.water_ingot": "Water Ingot",
+  "item.elementaldimensions.fire_ingot": "Fire Ingot",
+  "item.elementaldimensions.air_ingot": "Air Ingot",
+
+  "block.elementaldimensions.air_lattice": "Air Lattice",
+  "block.elementaldimensions.mossy_glass": "Mossy Glass",
+  "block.elementaldimensions.gaia_stone": "Gaia Stone"
+}

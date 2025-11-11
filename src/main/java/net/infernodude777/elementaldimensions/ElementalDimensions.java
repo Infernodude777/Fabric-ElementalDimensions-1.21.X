@@ -2,6 +2,8 @@ package net.infernodude777.elementaldimensions;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.infernodude777.elementaldimensions.block.ModBlocks;
+import net.infernodude777.elementaldimensions.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,5 +13,7 @@ public class ElementalDimensions implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-	}
+        ModItems.registerModItems();
+        ModBlocks.registerModBlocks();
+    }
 }
